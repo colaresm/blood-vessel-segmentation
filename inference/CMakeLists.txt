@@ -10,7 +10,7 @@ set_property(TARGET tensorflowlite PROPERTY IMPORTED_LOCATION ${CMAKE_CURRENT_SO
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-set(SOURCES segmentation.cpp)
+set(SOURCES main.cpp)
 
 add_executable(TFLiteCheck ${SOURCES})
 

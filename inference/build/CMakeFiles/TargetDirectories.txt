@@ -1,0 +1,3 @@
+/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles/TFLiteCheck.dir
+/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles/edit_cache.dir
+/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles/rebuild_cache.dir

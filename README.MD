@@ -17,6 +17,10 @@ The goal is to build a complete and optimized pipeline, from data preprocessing 
 - C++ (with CMake)
 - OpenCV (for image handling in C++)
 
+# Dataset
+
+
+
 #  🚀 Get started
 Clone the repository
 ```
@@ -34,15 +38,7 @@ python train.py
 # Inference
 To perform the inference, perform the following steps:
 ```
-cd inference
-
-mkdir build
-
-cd build
-
-cmake ..
-
-make 
+cd inference/build
 
 .\SegmentBloodVessels
 ```

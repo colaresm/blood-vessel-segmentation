@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(TFLiteCheck)
+project(SegmentBloodVessels)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -12,6 +12,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(SOURCES main.cpp)
 
-add_executable(TFLiteCheck ${SOURCES})
+add_executable(SegmentBloodVessels ${SOURCES})
 
-target_link_libraries(TFLiteCheck tensorflowlite ${OpenCV_LIBS})
+target_link_libraries(SegmentBloodVessels tensorflowlite ${OpenCV_LIBS})

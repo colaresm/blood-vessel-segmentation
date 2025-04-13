@@ -24,12 +24,18 @@ The dataset used in this project was the retinal blood vessel segmentation datas
   <img src="images/sample_mask.png" alt="mask" width="300"/>
 </p>
 
+# Model conversion to TFLite
+To convert the model trained by tensorflow into a .tflite model, simply run the ``create_tf_lite_model.py`` file with the following command:
+```
+python create_tf_lite_mode.py
+```
+The ``.tflite`` file will be saved in the models folder with the name ``segment_model.tflite``.
 
 #  🚀 Get started
-Clone the repository
+- Clone the repository:
 ```
-git clone https://github.com/colaresm/helmet-detection.git
-cd helmet-detection
+git clone https://github.com/colaresm/blood-vessel-segmentation.git
+cd blood-vessel-segmentation
 ```
 
 This repository already contains the model already trained and ready to perform inference. If you want to change any parameter (see the ``train.py`` file) and perform the training again, follow the instructions below. Otherwise, skip to the next step.
@@ -40,16 +46,16 @@ python train.py
 ```
 
 # Inference
-To perform the inference, perform the following steps:
+- To perform the inference, perform the following steps:
 ```
 cd inference/build
 
 .\SegmentBloodVessels
 ```
-The following result will be displayed:
+- The following result will be displayed:
 
 <p align="center">
-  <img src="images/result.png" alt="image" width="600"/>
+  <img src="images/result.png" alt="image" width="800"/>
 </p>
 
 

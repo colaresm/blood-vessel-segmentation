@@ -106,3 +106,6 @@ make
 
 # Reference
 
+[TensorFlow Lite](https://www.tensorflow.org/lite/guide?hl=pt-br)
+
+[Flatbuffers](https://flatbuffers.dev)

@@ -45,12 +45,20 @@ int main(int argc, char** argv) {
 
     float* inputTensor = interpreter->typed_tensor<float>(inputIndex);
     std::memcpy(inputTensor, imageResized.data, width * height * channels * sizeof(float));
-
+    auto start = std::chrono::high_resolution_clock::now();
     if (interpreter->Invoke() != kTfLiteOk) return -1;
 
     int outputIndex = interpreter->outputs()[0];
     TfLiteTensor* output = interpreter->tensor(outputIndex);
     float* outputData = interpreter->typed_tensor<float>(outputIndex);
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double, std::milli> duration = end - start;
+    double segmentationTime = duration.count() / 1000.0;
+    std::ostringstream oss;
+    oss << std::fixed << std::setprecision(2) << segmentationTime << "";
+
+    std::string segmentationTimeStr = oss.str();
+
 
     int outHeight = output->dims->data[1];
     int outWidth = output->dims->data[2];
@@ -79,6 +87,7 @@ int main(int argc, char** argv) {
     double scale = 1.0;
     int thickness = 2;
     cv::Scalar color(0, 0, 0);
+    cv::Scalar inferenceTimeColor(0, 255, 0);
     int baseLine;
 
     cv::Size size1 = cv::getTextSize(title1, font, scale, thickness, &baseLine);
@@ -90,6 +99,8 @@ int main(int argc, char** argv) {
 
     cv::putText(result, title1, cv::Point(x1, y), font, scale, color, thickness);
     cv::putText(result, title2, cv::Point(x2, y), font, scale, color, thickness);
+
+    cv::putText(result, "Segmentation time: "+segmentationTimeStr+ "s", cv::Point(x1-130, y+40), font, scale, inferenceTimeColor, thickness);
 
     cv::imshow("Segmentation", result);
     cv::waitKey(0);

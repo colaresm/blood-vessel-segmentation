@@ -46,16 +46,31 @@ python train.py
 ```
 
 # Inference
-- To perform the inference, perform the following steps:
-```
-cd inference/build
 
-.\SegmentBloodVessels
+- If you are using Windows:
 ```
+cd inference
+mkdir build && cd build
+cmake ..
+#open TFLiteCheck.sln in Visual Studio.
+#Build Release x64
+cd Release
+.\SegmentBloodVessels path_of_image
+```
+- If you are using MacOs:
+```
+cd inference
+mkdir build && cd build
+cmake ..
+make
+.\SegmentBloodVessels path_of_image
+```
+
+
 - The following result will be displayed:
 
 <p align="center">
-  <img src="images/result.png" alt="image" width="800"/>
+  <img src="images/animation.gif" alt="image" width="800"/>
 </p>
 
 

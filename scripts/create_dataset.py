@@ -1,5 +1,5 @@
 import cv2
-from  list_files import*
+from  scripts.list_files import*
 
 masks_path_train = "data/train/mask"
 images_path_train = "data/train/image"
@@ -33,7 +33,6 @@ def create_dataset():
         image = cv2.resize(image, (256, 256))
         image = image / 255.0
         images.append(image)
-
 
 
     for i,mask_file in enumerate(masks_files_test):

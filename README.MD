@@ -18,7 +18,11 @@ The goal is to build a complete and optimized pipeline, from data preprocessing 
 - OpenCV (for image handling in C++)
 
 # Dataset
-
+The dataset used in this project was the retinal blood vessel segmentation dataset available on [kaggle](https://www.kaggle.com/datasets/abdallahwagih/retina-blood-vessel). This set contains images of the fundus of the eye and their respective annotations, thus having 50 images in total.
+<p align="center">
+  <img src="images/sample.png" alt="image" width="300"/>
+  <img src="images/sample_mask.png" alt="mask" width="300"/>
+</p>
 
 
 #  🚀 Get started
@@ -42,6 +46,11 @@ cd inference/build
 
 .\SegmentBloodVessels
 ```
+The following result will be displayed:
+
+<p align="center">
+  <img src="images/result.png" alt="image" width="600"/>
+</p>
 
 
 ## Contributing

@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
     imageToShow.copyTo(result(cv::Rect(0, titleHeight, image.cols, image.rows)));
     maskRGB.copyTo(result(cv::Rect(image.cols, titleHeight, image.cols, image.rows)));
 
-    std::string title1 = "Original", title2 = "Segmented vessels";
+    std::string title1 = "Image", title2 = "Segmented vessels";
     int font = cv::FONT_HERSHEY_SIMPLEX;
     double scale = 1.0;
     int thickness = 2;

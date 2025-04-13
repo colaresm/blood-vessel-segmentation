@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TFLiteCheck
+# Target rules for targets named SegmentBloodVessels
 
 # Build rule for target.
-TFLiteCheck: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TFLiteCheck
-.PHONY : TFLiteCheck
+SegmentBloodVessels: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SegmentBloodVessels
+.PHONY : SegmentBloodVessels
 
 # fast build rule for target.
-TFLiteCheck/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/build
-.PHONY : TFLiteCheck/fast
+SegmentBloodVessels/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/build
+.PHONY : SegmentBloodVessels/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... TFLiteCheck"
+	@echo "... SegmentBloodVessels"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

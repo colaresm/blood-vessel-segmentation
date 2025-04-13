@@ -146,7 +146,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TFLiteCheck
+CMAKE_PROJECT_NAME:STATIC=SegmentBloodVessels
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -217,13 +217,13 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 OpenCV_DIR:PATH=/opt/homebrew/lib/cmake/opencv4
 
 //Value Computed by CMake
-TFLiteCheck_BINARY_DIR:STATIC=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build
+SegmentBloodVessels_BINARY_DIR:STATIC=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build
 
 //Value Computed by CMake
-TFLiteCheck_IS_TOP_LEVEL:STATIC=ON
+SegmentBloodVessels_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-TFLiteCheck_SOURCE_DIR:STATIC=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference
+SegmentBloodVessels_SOURCE_DIR:STATIC=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference
 
 
 ########################

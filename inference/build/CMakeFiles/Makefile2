@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/marcelocolares/Documents/blood-vessel-segmentation/inf
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TFLiteCheck.dir/all
+all: CMakeFiles/SegmentBloodVessels.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/TFLiteCheck.dir/codegen
+codegen: CMakeFiles/SegmentBloodVessels.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TFLiteCheck.dir/clean
+clean: CMakeFiles/SegmentBloodVessels.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TFLiteCheck.dir
+# Target rules for target CMakeFiles/SegmentBloodVessels.dir
 
 # All Build rule for target.
-CMakeFiles/TFLiteCheck.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles --progress-num=1,2 "Built target TFLiteCheck"
-.PHONY : CMakeFiles/TFLiteCheck.dir/all
+CMakeFiles/SegmentBloodVessels.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles --progress-num=1,2 "Built target SegmentBloodVessels"
+.PHONY : CMakeFiles/SegmentBloodVessels.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TFLiteCheck.dir/rule: cmake_check_build_system
+CMakeFiles/SegmentBloodVessels.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TFLiteCheck.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SegmentBloodVessels.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles 0
-.PHONY : CMakeFiles/TFLiteCheck.dir/rule
+.PHONY : CMakeFiles/SegmentBloodVessels.dir/rule
 
 # Convenience name for target.
-TFLiteCheck: CMakeFiles/TFLiteCheck.dir/rule
-.PHONY : TFLiteCheck
+SegmentBloodVessels: CMakeFiles/SegmentBloodVessels.dir/rule
+.PHONY : SegmentBloodVessels
 
 # codegen rule for target.
-CMakeFiles/TFLiteCheck.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles --progress-num=1,2 "Finished codegen for target TFLiteCheck"
-.PHONY : CMakeFiles/TFLiteCheck.dir/codegen
+CMakeFiles/SegmentBloodVessels.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/CMakeFiles --progress-num=1,2 "Finished codegen for target SegmentBloodVessels"
+.PHONY : CMakeFiles/SegmentBloodVessels.dir/codegen
 
 # clean rule for target.
-CMakeFiles/TFLiteCheck.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TFLiteCheck.dir/build.make CMakeFiles/TFLiteCheck.dir/clean
-.PHONY : CMakeFiles/TFLiteCheck.dir/clean
+CMakeFiles/SegmentBloodVessels.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SegmentBloodVessels.dir/build.make CMakeFiles/SegmentBloodVessels.dir/clean
+.PHONY : CMakeFiles/SegmentBloodVessels.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/main.cpp" "CMakeFiles/TFLiteCheck.dir/main.cpp.o" "gcc" "CMakeFiles/TFLiteCheck.dir/main.cpp.o.d"
+  "/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/main.cpp" "CMakeFiles/SegmentBloodVessels.dir/main.cpp.o" "gcc" "CMakeFiles/SegmentBloodVessels.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

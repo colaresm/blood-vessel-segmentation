@@ -1,4 +1,4 @@
-CMakeFiles/TFLiteCheck.dir/main.cpp.o: \
+CMakeFiles/SegmentBloodVessels.dir/main.cpp.o: \
   /Users/marcelocolares/Documents/blood-vessel-segmentation/inference/main.cpp \
   /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4/opencv2/opencv_modules.hpp \

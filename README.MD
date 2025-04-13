@@ -62,6 +62,7 @@ python train.py
 ```
 
 # Inference
+- The file responsible for reading the .tflite model and executing the entire inference process is located in ``inference/main.cpp``.
 
 - If you are using Windows:
 ```

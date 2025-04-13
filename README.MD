@@ -70,9 +70,10 @@ make
 - The following result will be displayed:
 
 <p align="center">
-  <img src="images/animation.gif" alt="image" width="800"/>
+  <img src="images/animation.gif" alt="image" width="1000"/>
 </p>
 
+* The ``images`` folder has some examples that you can use for testing.
 
 ## Contributing
 

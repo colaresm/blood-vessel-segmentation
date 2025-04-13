@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/marcelocolares/Documents/blood-vessel-segmentation/inference/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
